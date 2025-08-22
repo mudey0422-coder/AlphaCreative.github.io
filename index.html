@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alpha Creative</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <nav>
@@ -18,23 +19,28 @@
   </nav>
 
   <section id="hero">
-    <h2>Welcome to Alpha Creative</h2>
-    <p>We bring your ideas to life through design, video & digital marketing.</p>
-    <a href="#services" class="btn">Our Services</a>
+    <div class="hero-overlay">
+      <h2>Welcome to Alpha Creative</h2>
+      <p>We bring your ideas to life through design, video & digital marketing.</p>
+      <a href="#services" class="btn">Our Services</a>
+    </div>
   </section>
 
   <section id="services">
     <h2>Our Services</h2>
     <div class="cards">
       <div class="card">
+        <i class="fas fa-paint-brush fa-2x"></i>
         <h3>Graphic Design</h3>
         <p>Creative and professional design solutions for your brand.</p>
       </div>
       <div class="card">
+        <i class="fas fa-video fa-2x"></i>
         <h3>Video Editing</h3>
         <p>High-quality video editing to tell your story visually.</p>
       </div>
       <div class="card">
+        <i class="fas fa-bullhorn fa-2x"></i>
         <h3>Digital Marketing</h3>
         <p>Boost your online presence with smart digital marketing.</p>
       </div>
@@ -44,6 +50,7 @@
   <section id="about">
     <h2>About Us</h2>
     <p>At Alpha Creative, we are passionate about delivering stunning visuals and impactful marketing strategies to help your business stand out.</p>
+    <img src="images/about.jpg" alt="About Alpha Creative" class="about-img">
   </section>
 
   <section id="contact">
@@ -52,7 +59,7 @@
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
       <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
+      <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
     </form>
   </section>
 
